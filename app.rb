@@ -6,7 +6,7 @@ class App < Sinatra::Base
  get '/name' do 
    @names = Name.all 
    erb :'names/index.html.erb'
-   "My name is"
+   "My name is "
  end
   
   
